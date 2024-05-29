@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h3{
+    font-size: 20px;
+}
+
+#navbarBasicExample h2{
+    font-size: 26px;
+    font-style: italic;
+    margin: 0.6rem 2rem;
+}
+
+#dados{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://th.bing.com/th/id/R.c76d27513853bd743ea8cdedf8d2fda0?rik=VRudjoCVt9qasA&pid=ImgRaw&r=0");
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.dados{
+    padding: 1rem 4rem 1rem 1rem;
+    border: 1px solid #3b3b3b;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 80px;
+}
+
+.dados p{
+   border-bottom: 1px solid #3b3b3b;
+   padding-top: 15px;
+}
+
+.reuniao{
+    max-width: 300px;
+    padding: 1rem;
+    border: 1px solid #3b3b3b;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.reuniao form input, .select{
+    margin-bottom: 1rem;
+}
+
+.infos{
+    background-color: black;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.infos th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 10px;
+}
+
+
+.reuniao-area{
+    padding: 4rem 0 0 3rem;
+}
+
+.perfil{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+.perfil-foto img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 1rem;
+}
+
+.horarios table {
+    border: 2px solid rgb(140 140 140);
+  }
